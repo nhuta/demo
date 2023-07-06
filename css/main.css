@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cont
+{
+	display: grid;
+	grid-template-columns: 20% 30% 50%;
+	grid-template-rows: 100px 300px auto 300px 250px 200px;
+	grid-template-areas: 
+		"aa aa aa"
+		"bb bb bb"
+		"vv vv vv"
+		"dd dd dd"
+		"ee ee ee"
+		"ff ff ff"
+}
+
+
+
+
+.item01
+{
+	background: #FFFFFF;
+	
+	box-sizing: border-box;
+}
+
+
+.item01
+{
+	grid-area: aa;
+}
+
+.item02
+{
+	grid-area: bb;
+}
+
+.item03
+{
+	grid-area: vv;
+}
+
+.item04
+{
+	grid-area: dd;
+}
+
+.item05
+{
+	grid-area: ee;
+}
+
+.item06
+{
+	grid-area: ff;
+}
+
+.menu
+{
+	width:70%;
+	height: 100px;
+	background-color: #FFFFFF;
+	float:right;
+	
+}
+
+.logo
+{
+	float: left;
+	width: 10%;
+	height: 80%;
+	padding: 0px 0px 0px 200px
+}
+
+.menu ul
+{
+	list-style: none
+}
+
+.menu ul li
+{
+	float: left;
+	padding: 0px 45px
+}
+
+.menu ul li a
+{
+	text-decoration: none
+}
+
+.menu ul li:hover
+{
+	background-color: #C7D8FB
+}
+
+.item02
+{
+	width: 100%;
+	height: 300px;
+	background: #0A3893;
+	border-top: #FFFFFF;
+	display: flex;
+	justify-content: center
+}
+
+.ads{
+	width: 40%;
+}
+
+.item03
+{
+	display: flex;
+	justify-content: center;
+}
+
+.box
+{
+	width: 25%;
+	height: 315px;
+	
+	float: left;
+	margin: 50px 20px;
+	overflow: hidden;
+	position: relative
+}
+
+.box img
+{
+	opacity: 1;
+	transform: scale(1);
+	transition: all 0.5s linear;
+}
+
+.box:hover img{
+	opacity: 0.5;
+	transform: scale(1.1);
+	
+}
+
+.info
+{
+	width: 40%;
+	height: 60px;
+	background: #C7D8FB;
+	left: 30%;
+	position: absolute;
+	text-align: center
+	
+}
+
+.box .info
+{
+	opacity: 0;
+	transition: all 0.5s linear;
+	top: 200px
+}
+
+.box:hover .info
+{
+	opacity: 1;
+	top: 110px
+}
+
+.item04
+{
+	
+	display: flex;
+	justify-content: center;
+}
+
+.featured
+{
+	width: 80%;
+	height: 260px;
+	background:#002C92 ;
+	overflow: hidden;
+	
+}
+
+.featuredbox
+{
+	width: 31%;
+	float: right
+}
+
+.featured img
+{
+	width: 66%;
+	float: left;
+	opacity: 1;
+	transform: scale(1);
+	transition: all 0.5s linear;
+}
+
+.featured:hover img{
+	opacity: 0.5;
+	transform: scale(1.1);
+	
+}
+
+.item05
+{
+	width: 100%;
+	height: 200px;
+	background:#FFFFFF ;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.noidungitem05
+{
+	width: 40%;
+	height: 200px;
+	position: relative;
+
+}
+
+.signup
+{
+	width: 200px;
+	height: 60px;
+	background:#002C92;
+	position: absolute;
+	text-align: center;
+	
+}
+
+.noidungitem05 .signup
+{
+	opacity: 1;
+}
+
+.noidungitem05 .signup:hover
+{
+	opacity: 0.5;
+}
+
+.item06
+{
+	width: 100%;
+	height: 200px;
+	background:#002C92 ;
+	
+	
+}
+
+.noidungitem06
+{
+	width:70%;
+	height: 100px;
+	background-color: #002C92;
+	float:right;
+	padding: 40px 0px 0px 0px;
+}
+
+.logo2
+{
+	float: left;
+	width: 10px;
+	padding: 40px 0px 0px 200px
+}
+
+
+
+
+
